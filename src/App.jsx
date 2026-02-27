@@ -1,31 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Routes, Route } from 'react-router'
-import Navbar from './components/Navbar'
-import Home from './routes/Home'
-import Favorites from './routes/Favorites'
-import About from './routes/About'
-import Contact from './routes/Contact'
+// src/App.jsx
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { routes } from './config/Router.jsx';
+import './App.css';
+import Layout from './components/Layout';
+import NotFound from './pages/NotFound';
+import Login from './pages/Login';
+import PrivateRoute from './components/PrivateRoute';
 
 function App() {
-
-
   return (
-    <>
-      <Navbar />
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Routes>
-        <Route path="/" element = {<Home />}/>
-        <Route path="/favorites" element = {<Favorites />}/>
-        <Route path="/about" element = {<About />}/>
-        <Route path="/contact" element = {<Contact />}/>
+        {/* Public route - Login */}
+        <Route path="/login" element={<Login />} />
         
-     </Routes>
- 
-
-    </>
-  )
+        {/* Protected routes */}
+        {routes.map((route) => (
+          <Route 
+            key={route.path}
+            path={route.path} 
+            element={
+              <PrivateRoute>
+                <Layout>{route.component}</Layout>
+              </PrivateRoute>
+            }
+          />
+        ))}
+        
+        {/* Catch-all route for 404 pages */}
+        <Route 
+          path="*" 
+          element={<Layout><NotFound /></Layout>}
+        />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
