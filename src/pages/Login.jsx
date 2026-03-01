@@ -1,4 +1,4 @@
-// src/pages/Login.jsx
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
@@ -13,7 +13,7 @@ const Login = () => {
     setLoading(true);
     try {
       await signInWithGoogle();
-      navigate('/'); // Redirect to home after successful login
+      navigate('/'); 
     } catch (error) {
       console.error("Login failed:", error);
     } finally {
@@ -55,7 +55,7 @@ const Login = () => {
 
           {error && (
             <div className="error-message">
-              <p>⚠️ {error}</p>
+              <p> {error}</p>
             </div>
           )}
 

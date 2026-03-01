@@ -29,7 +29,7 @@ export const MovieProvider = ({ children }) => {
       const data = response.data;
 
       if (data.Response === "False") {
-        // API returned error (e.g., "Movie not found!")
+        // API returned error 
         setMovies(null);
         setError(data.Error || "No movies found. Try a different search.");
       } else {

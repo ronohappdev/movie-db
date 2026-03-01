@@ -1,4 +1,4 @@
-// src/components/Header.jsx
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { routes } from '../config/Router.jsx';
@@ -19,7 +19,8 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <div className='logo'>Movie App</div>
+        <Link to="/" className='logo'>Movie <span className="text-blue-500"> App</span>
+        </Link>
         <div className='nav-item'>
           <div className='nav-links'>
             {routes.map((route) => {
