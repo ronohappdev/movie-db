@@ -108,7 +108,7 @@ Movie Database is a full-featured web application that allows users to search fo
 ### Home Page - Search Movies
 
 ```
-![Home](./src/homepage.png)
+![Home Page](./screenshots/homepage.png)
 
 ```
 
