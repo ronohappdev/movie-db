@@ -107,28 +107,17 @@ Movie Database is a full-featured web application that allows users to search fo
 
 ### Home Page - Search Movies
 
-```
 ![Home Page](/src/screenshots/homepage.png)
-
-```
 
 ### Movie Details Page
 
-```
-![Details](src/moviedetails.png)
-
-
-```
+![Details](/src/screenshots/moviedetails.png)
 
 ### Favorites Page
 
-````
+![Favorites](./src/screenshots/favorites.png)
 
-![Favorites](./src/favorites.png)
-
----
-
-##  Installation
+## Installation
 
 ### Prerequisites
 
@@ -143,7 +132,7 @@ Before you begin, ensure you have the following installed:
 ```bash
 git clone https://github.com/ronohappdev/movie-db
 cd movie-db
-````
+```
 
 ### Step 2: Install Dependencies
 
