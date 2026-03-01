@@ -406,7 +406,7 @@ Public routes:
 
 **Project Link:** [https://github.com/ronohappdev/movie-db](https://github.com/ronohappdev/movie-db)
 
-**Live Demo:** [ https://movie-db-two-drab.vercel.app/login](https://movie-db-two-drab.vercel.app/login)
+**Live Demo:** [ https://movie-db-two-drab.vercel.app/login](https://movie-db-two-drab.vercel.app/)
 
 ---
 
