@@ -24,14 +24,13 @@
 - [Screenshots](#-screenshots)
 - [Installation](#-installation)
 - [Configuration](#-configuration)
-- [Usage](#-usage)
 - [Project Structure](#-project-structure)
 - [API Integration](#-api-integration)
 - [Authentication](#-authentication)
 - [Deployment](#-deployment)
 - ***
 
-## 🎯 Overview
+## Overview
 
 Movie Database is a full-featured web application that allows users to search for movies, view detailed information, and save their favorites. Built with modern web technologies, it offers a seamless experience across all devices with real-time data synchronization and secure authentication.
 
