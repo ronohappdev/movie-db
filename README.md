@@ -115,7 +115,7 @@ Movie Database is a full-featured web application that allows users to search fo
 ### Movie Details Page
 
 ```
-![Details](./src/moviedetails.png)
+![Details](/home/ronoh/Desktop/movie-db/src/moviedetails.png)
 
 
 ```
