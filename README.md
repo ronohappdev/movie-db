@@ -29,9 +29,7 @@
 - [API Integration](#-api-integration)
 - [Authentication](#-authentication)
 - [Deployment](#-deployment)
--
-
----
+- ***
 
 ## 🎯 Overview
 
@@ -74,7 +72,7 @@ Movie Database is a full-featured web application that allows users to search fo
   - Clean, intuitive interface
   - Error handling with user feedback
 
--**404 Error Handling**
+- **404 Error Handling**
 
 - Custom 404 page
 - Easy navigation back to safety
@@ -110,22 +108,23 @@ Movie Database is a full-featured web application that allows users to search fo
 ### Home Page - Search Movies
 
 ```
-![Alt text describing the image](/src/homepage.png "Optional title text on hover")
+![Home](./src/homepage.png)
 
 ```
 
 ### Movie Details Page
 
 ```
-![Alt text describing the image](/src/moviedetails.png "Optional title text on hover")
+![Details](./src/moviedetails.png)
+
 
 ```
 
 ### Favorites Page
 
 ````
-![Alt text describing the image](/src/favorites.png "Optional title text on hover")
 
+![Favorites](./src/favorites.png)
 
 ---
 
