@@ -1,144 +1,28 @@
 nav {
   display: flex;
   justify-content: space-between;
-  font-weight: bold;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #eeee;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  border: none;
-  color: white;
-  font-size: 28px;
-}
-
-.nav-item {
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 
-li,
-:link {
-  display: inline-block;
-  
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-.link {
-  text-decoration: none;
-  padding: 10px 5px;
-  background-color: black;
-  border-radius: 5px;
-  color: #fff;
-  transition: all ease-in-out 0.3s;
-}
-
-.link:hover {
-  background-color: white;
-  color: black;
-}
-
-li:not(:last-child) :link {
-  margin-right: 25px;
-}
-
-/* User Section Styles */
 .user-section {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.user-info {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
 .user-avatar {
-  width: 36px;
-  height: 36px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  object-fit: cover;
 }
 
 .user-name {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
-  max-width: 150px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.logout-button {
-  background-color: rgba(255, 59, 48, 0.1);
-  color: #ff6b6b;
-  border: 1px solid #ff6b6b;
-  padding: 8px 16px;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.logout-button:hover {
-  background-color: #ff6b6b;
   color: white;
-  transform: translateY(-2px);
-}
-
-.logout-button:active {
-  transform: translateY(0);
-}
-
-.login-link {
-  background-color: #007bff;
-  padding: 8px 20px;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-}
-
-.login-link:hover {
-  background-color: #0056b3;
-  transform: translateY(-2px);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .user-name {
-    display: none;
-  }
-
-  .user-section {
-    gap: 10px;
-  }
-
-  .user-avatar {
-    width: 32px;
-    height: 32px;
-  }
-
-  .logout-button {
-    padding: 6px 12px;
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 480px) {
-  .logout-button {
-    padding: 6px 10px;
-    font-size: 12px;
-  }
+  font-weight: 500;
 }
