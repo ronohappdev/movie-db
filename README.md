@@ -294,6 +294,10 @@ movie-search/
 │   │   ├── Layout.css
 │   │   ├── Login.css
 │   │   └── NotFound.css
+│   ├── screenshots
+│   │   ├── favorites.png
+│   │   ├── homepage.png
+│   │   ├── moviedetails.png
 │   ├── utils/                      # Utility files
 │   │   └── no-image-available.png # Placeholder image
 │   ├── App.jsx                     # Root component
